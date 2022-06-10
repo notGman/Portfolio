@@ -1,0 +1,38 @@
+@media screen and (max-width:600px) {
+  /* *{
+    overflow: hidden;
+  } */
+  .navbar .container {
+    overflow-x: hidden;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* ----------------------------------------------------------------------------------------- */
+
+  br{
+    display: none;
+  }
+  .svg{
+    width: 90vw;
+    height: max-content;
+    margin-top: 0px;
+    transform: translate(27px);
+    /* transform: translate(30px) */
+  }
+  .title_content img{
+    width: 50vh;
+    margin: auto;
+    margin-top: -60px;
+  }
+  .title_content{
+    gap: 20px;
+  }
+  .title>h1{
+    font-size: 50px;
+  }
+  .title>p{
+    font-size: 26px;
+    width: 100vw
+  }
+
+}
