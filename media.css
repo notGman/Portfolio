@@ -5,7 +5,7 @@
 }
 @media screen and (max-width:600px) {
   img{
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
   .navbar .container {
     overflow-x: hidden;
@@ -32,11 +32,14 @@
   .title_content{
     gap: 20px;
   }
+  .title{
+    padding:0px 20px;
+  }
   .title>h1{
-    font-size: 50px;
+    font-size: 40px;
   }
   .title>p{
-    font-size: 26px;
+    font-size: 22px;
     width: 100vw
   }
 
