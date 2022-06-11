@@ -1,7 +1,12 @@
+@media screen and (max-width:400px) {
+  .navbar ul{
+    display: block;
+  }
+}
 @media screen and (max-width:600px) {
-  /* *{
-    overflow: hidden;
-  } */
+  img{
+    overflow-y: hidden;
+  }
   .navbar .container {
     overflow-x: hidden;
     flex-direction: column;
